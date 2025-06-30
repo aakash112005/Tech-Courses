@@ -8,7 +8,7 @@ import { useState, useEffect } from "react";
 import { toast } from "react-toastify";
 
 function App() {
-  const [category,setCategory] = useState(filterData[0].tittle)
+  const [category,setCategory] = useState(filterData[0].title)
   const [courses, setCourses] = useState({});
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
